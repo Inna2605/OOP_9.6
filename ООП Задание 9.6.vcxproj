@@ -139,7 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="automobile.cpp" />
+    <ClCompile Include="doors.cpp" />
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="wheel.cpp" />
     <ClCompile Include="ООП Задание 9.6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="automobile.h" />
+    <ClInclude Include="doors.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="wheel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
